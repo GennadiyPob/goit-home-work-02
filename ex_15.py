@@ -1,3 +1,7 @@
+# Напишіть програму, яка буде виконувати найпростіші математичні операції з числами послідовно,
+# приймаючи від користувача операнди (числа) та оператор.
+
+
 result = 0
 operand = None
 operator = None
@@ -51,4 +55,4 @@ while operator != '=':
         result = result / operand
 
 
-print(f' Result : {result}')
+print(f' Result = {result}')
